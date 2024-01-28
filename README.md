@@ -1,10 +1,10 @@
 # GGJ23 - Make Me Laugh
 
 
-![image1](59743.png)
+![image1](1.jpeg)
 
-![image1](59745.png)
+![image1](2.jpeg)
 
-![image1](59747.png)
+![image1](3.jpeg)
 
-![image1](59748.png)
+![image1](4.jpeg)
