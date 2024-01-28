@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b6a69e2e738866f4798816875c0478c9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Caramel
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 13fd0d3b35b5e2543852a27aa10c3a2e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

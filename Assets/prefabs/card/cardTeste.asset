@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23664f668bc0b044a9a58ce36eb3b37e, type: 3}
+  m_Name: cardTeste
+  m_EditorClassIdentifier: 
+  cards:
+  - cardName: Irresistible Charm
+    laughterPoints: 1
+    rarity: 0
+    cardType: 0
+    cardAbility:
+      description: Add +2 laughter points.
+      cardAbilityEffects:
+      - laughterPointsPositive: 2
+        laughterPointsNegative: 0
+        cardTypeEffect: 
+        cardEffectCondition: 0
+  - cardName: Stunning Confusion
+    laughterPoints: 1
+    rarity: 0
+    cardType: 1
+    cardAbility:
+      description: 'Remove 2 laughter points from the opponent. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 0
+        laughterPointsNegative: 2
+        cardTypeEffect: 
+        cardEffectCondition: 0

@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23664f668bc0b044a9a58ce36eb3b37e, type: 3}
+  m_Name: cardSets
+  m_EditorClassIdentifier: 
+  cards:
+  - cardName: Irresistible Charm
+    laughterPoints: 1
+    rarity: 0
+    cardType: 0
+    cardAbility:
+      description: Add +2 laughter points.
+      cardAbilityEffects:
+      - laughterPointsPositive: 2
+        laughterPointsNegative: 0
+        cardTypeEffect: 
+        cardEffectCondition: 0
+  - cardName: Stunning Confusion
+    laughterPoints: 1
+    rarity: 0
+    cardType: 1
+    cardAbility:
+      description: 'Remove 2 laughter points from the opponent. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 0
+        laughterPointsNegative: 2
+        cardTypeEffect: 
+        cardEffectCondition: 0
+  - cardName: 'Inspire Compassion '
+    laughterPoints: 2
+    rarity: 0
+    cardType: 0
+    cardAbility:
+      description: 'Adds +1 laughter point for each point of Anti-Charisma from the
+        opponent. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 1
+        laughterPointsNegative: 0
+        cardTypeEffect: 01000000
+        cardEffectCondition: 3
+  - cardName: Temporal Distortion
+    laughterPoints: 0
+    rarity: 0
+    cardType: 2
+    cardAbility:
+      description: 'Swap the total laughter points this turn with the opponent. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 0
+        laughterPointsNegative: 0
+        cardTypeEffect: 
+        cardEffectCondition: 14
+  - cardName: 'Perfect Imitation '
+    laughterPoints: 2
+    rarity: 0
+    cardType: 5
+    cardAbility:
+      description: Adds +2 laughter points if the opponent's last played card was
+        of the Originality type.
+      cardAbilityEffects:
+      - laughterPointsPositive: 2
+        laughterPointsNegative: 0
+        cardTypeEffect: 04000000
+        cardEffectCondition: 16
+  - cardName: 'Bold Strategy '
+    laughterPoints: 2
+    rarity: 0
+    cardType: 3
+    cardAbility:
+      description: 'Adds +1 laughter point for each Comedic Timing card already played. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 1
+        laughterPointsNegative: 0
+        cardTypeEffect: 02000000
+        cardEffectCondition: 7
+      - laughterPointsPositive: 1
+        laughterPointsNegative: 0
+        cardTypeEffect: 02000000
+        cardEffectCondition: 9
+  - cardName: 'Subtle Irony '
+    laughterPoints: 2
+    rarity: 0
+    cardType: 5
+    cardAbility:
+      description: 'Adds +1 laughter point and removes 2 laughter points from the
+        opponent if the opponent''s last played card was Originality. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 1
+        laughterPointsNegative: 2
+        cardTypeEffect: 04000000
+        cardEffectCondition: 6
+  - cardName: Unexpected Twist
+    laughterPoints: 1
+    rarity: 0
+    cardType: 5
+    cardAbility:
+      description: Adds +3 laughter points if the opponent's last played card was
+        of the Originality type.
+      cardAbilityEffects:
+      - laughterPointsPositive: 3
+        laughterPointsNegative: 0
+        cardTypeEffect: 04000000
+        cardEffectCondition: 6
+  - cardName: 'Captivating Disdain '
+    laughterPoints: 1
+    rarity: 0
+    cardType: 1
+    cardAbility:
+      description: 'Adds +2 laughter points and removes 1 laughter point from the
+        opponent if the opponent''s last played card was Charisma. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 2
+        laughterPointsNegative: 1
+        cardTypeEffect: 00000000
+        cardEffectCondition: 6
+  - cardName: 'Dual Personality '
+    laughterPoints: 1
+    rarity: 0
+    cardType: 1
+    cardAbility:
+      description: Adds +1 laughter point for each Charisma and Anti-Charisma card
+        played.
+      cardAbilityEffects:
+      - laughterPointsPositive: 1
+        laughterPointsNegative: 0
+        cardTypeEffect: 0000000001000000
+        cardEffectCondition: 9
+      - laughterPointsPositive: 1
+        laughterPointsNegative: 0
+        cardTypeEffect: 0000000001000000
+        cardEffectCondition: 7
+  - cardName: 'Impactful Phrase '
+    laughterPoints: 1
+    rarity: 0
+    cardType: 2
+    cardAbility:
+      description: 'Adds +2 laughter points and removes 2 laughter points from the
+        opponent if one of the opponent''s last played cards was Anti-Timing. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 2
+        laughterPointsNegative: 2
+        cardTypeEffect: 03000000
+        cardEffectCondition: 6
+  - cardName: 'Comedic Sync '
+    laughterPoints: 2
+    rarity: 0
+    cardType: 2
+    cardAbility:
+      description: 'Adds +1 laughter point for each Comedic Timing card played by
+        the player. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 1
+        laughterPointsNegative: 0
+        cardTypeEffect: 03000000
+        cardEffectCondition: 9
+  - cardName: 'Funny Contradiction '
+    laughterPoints: 2
+    rarity: 0
+    cardType: 4
+    cardAbility:
+      description: Adds +2 laughter points and removes 1 laughter point if the opponent's
+        last played card was Plagiarism.
+      cardAbilityEffects:
+      - laughterPointsPositive: 2
+        laughterPointsNegative: 1
+        cardTypeEffect: 05000000
+        cardEffectCondition: 6
+  - cardName: 'Genius Blend '
+    laughterPoints: 2
+    rarity: 0
+    cardType: 4
+    cardAbility:
+      description: 'Adds +2 laughter points if the two cards played by the opponent
+        are of different types. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 2
+        laughterPointsNegative: 0
+        cardTypeEffect: 
+        cardEffectCondition: 17
+  - cardName: Triumphant Fanfare
+    laughterPoints: 1
+    rarity: 0
+    cardType: 2
+    cardAbility:
+      description: 'Add +3 laughter points if the opponent has more points. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 3
+        laughterPointsNegative: 0
+        cardTypeEffect: 
+        cardEffectCondition: 12
+  - cardName: 'Domino Effect  '
+    laughterPoints: 1
+    rarity: 0
+    cardType: 0
+    cardAbility:
+      description: Add +1 laughter point for each card played before this one in
+        the turn.
+      cardAbilityEffects:
+      - laughterPointsPositive: 1
+        laughterPointsNegative: 0
+        cardTypeEffect: 
+        cardEffectCondition: 9
+      - laughterPointsPositive: 1
+        laughterPointsNegative: 0
+        cardTypeEffect: 
+        cardEffectCondition: 7
+  - cardName: Hilarious Mimicry
+    laughterPoints: 2
+    rarity: 0
+    cardType: 1
+    cardAbility:
+      description: Adds +2 laughter points and removes 1 laughter point from the
+        opponent if the opponent's last played card was Charisma.
+      cardAbilityEffects:
+      - laughterPointsPositive: 2
+        laughterPointsNegative: 1
+        cardTypeEffect: 04000000
+        cardEffectCondition: 2
+  - cardName: 'Epic Moment '
+    laughterPoints: 2
+    rarity: 0
+    cardType: 4
+    cardAbility:
+      description: 'Add +5 laughter points if one of the player''s last played cards
+        was Plagiarism. '
+      cardAbilityEffects:
+      - laughterPointsPositive: 5
+        laughterPointsNegative: 0
+        cardTypeEffect: 04000000
+        cardEffectCondition: 2
